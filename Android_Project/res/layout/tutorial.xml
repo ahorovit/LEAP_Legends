@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tutorial_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0FF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/dude_01" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/imageView1"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Skeletor: Can attack units that are in adjacent hexes. Once there is an enemy unit within range, he will attack and fight the enemy unit to the death."
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/imageView2"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Tyrannosaurus Hex: Leader of the skeletors. Can travel great distances each turn. Not only does he do more damage than the skeletor, he can also attack enemy units by jumping over them. "
+        android:textColor="#FFF"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/editText2"
+        android:src="@drawable/elite_1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@+id/editText2"
+        android:src="@drawable/dude_2" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/imageView3"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Warrior: Brave and courageous, they charge into battle. They fight enemies that appear next to them, and they either kill, or get killed."
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_toLeftOf="@+id/editText3"
+        android:src="@drawable/elite_2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView4"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Elite: The best of the best. Faster, stronger, better. Her abilities are on par with the evil Tyrannosaurus Hex, and she will stop the evil forces... no matter who gets in her way."
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView4"
+        android:src="@drawable/phalanx_01" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:src="@drawable/phalanx_02" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText4"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Phalanx Mode: Activated when the cannon fodder (I mean...Skeletor/Warrior) are next to an ally. In phalanx mode, they take half damage."
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+</RelativeLayout>

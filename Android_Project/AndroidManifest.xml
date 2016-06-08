@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.authorwjf.gamedevtut05"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name="com.JAAAM.Hex_v07.Main"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.JAAAM.Hex_v07.MainGame"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINGAME" />
+
+                <category android:name="android.intent.category.LAUNCHERGAME" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="com.JAAAM.Hex_v07.Tutorial"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.TUTORIAL" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="com.JAAAM.Hex_v07.story"
+            android:label="@string/title_activity_main" 
+            android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.STORY" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
