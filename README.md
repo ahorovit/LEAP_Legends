@@ -10,7 +10,7 @@ My contribution is the game code, including all sprite presentation, user intera
 Navigate to LEAP_Legends/Eclipse_Project/src/com/JAAAM/ to see my code.
 
 1. .../drawing/Model.java 
- -- Establishes the game environment.
+  * Establishes the game environment.
 2. .../drawing/GameImage.java 
  -- Instantiates the game model and presents the game on the screen.
 3. .../pieces/*.java 
