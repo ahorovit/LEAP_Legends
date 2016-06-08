@@ -25,3 +25,17 @@ Navigate to LEAP_Legends/Eclipse_Project/src/com/JAAAM/Hex_v07
 Thanks for your interest. Please contact me if you have any suggestions or find interesting application for this project.
 
 --Adin
+
+
+1. First ordered list item
+2. Another item
+  * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
+4. And another item.  
+
+   Some text that should be aligned with the above item.
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
