@@ -16,7 +16,7 @@ Navigate to LEAP_Legends/Eclipse_Project/src/com/JAAAM/ to see my code.
 3. .../pieces/*.java 
  -- Encode all game objects and dictate their roles in the game.
 
-## Contributions by collaborates can also be seen
+## How to view Collaborators' work:
 Navigate to LEAP_Legends/Eclipse_Project/src/com/JAAAM/Hex_v07
 
 4. .../*.java
