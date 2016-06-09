@@ -1,6 +1,12 @@
 # LEAP_Legends
 Hex-based two-player game of strategy for Android
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ODlr5l-Cuck
+" target="_blank"><img src="http://img.youtube.com/vi/ODlr5l-Cuck/0.jpg" 
+alt="LEAP Legends" width="240" height="180" border="10" /></a>
+
+
+
 ## Acknowledgments
 This project is the result of collaboration with Drew Pellitieri, Max Li, Josh Joseph, and Apurv Guarav
 
